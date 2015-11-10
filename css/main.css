@@ -2,42 +2,46 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 1350px;
-    width: 620px;
-    background: url(../img/index__background.png) no-repeat;
+    height: 700px;
+    width: 1355px;
+    background: url(../img/index__background.jpg) no-repeat;
+    font-family: Impact;
+    font-weight: bold;
+    color: #DADFE1;
 }
-
+a {
+    color: #DADFE1;
+}
 header {
 	display: block;
     margin: 0;
     padding: 0;
-    width: 1350px;
-	height: 90px;
-    color: #BCC3DB;
+    width: 1355px;
+	height: 100px;
 	}
 .header__logo{
-	margin-left: 125px;
-    margin-top: 20px;
-	width: 200px;
-	height: 90px;		
+	margin-left: 45px;
+    margin-top: 15px;
+	width: 252px;
+	height: 80px;		
 	background: url(../img/header__logo.png) no-repeat;
 	display: inline-block;
     vertical-align: top;
 	}	
 
 
-.dropdown-top:hover {
-    color: #2F5E68; 
+.dropdown-top:hover { 
     text-decoration: underline;
+    color:#5B9BBE;
 } 
 .dropdown {
+    font-size: 30px;
     margin-top: 0; 
     display: inline-block; 
-    width: 500px; 
+    width: 700px; 
     height: 90px; 
-    margin-left: 125px; 
-    font-size: 50px; 
-
+    margin-left: 45px; 
+    letter-spacing: 0px;
 } 
 .dropdown li {
     list-style: none; 
@@ -50,10 +54,8 @@ header {
 .dropdown a {
     display: block;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bolder;
     text-align: center;
-    color: #BCC3DB;
+
 }
 
 ul.dropdown li {
@@ -73,11 +75,14 @@ ul.dropdown-inside {
 
 ul.dropdown li.dropdown-top:hover .dropdown-inside {
     left: 0;
-    height: 20px;
+    height: 0px;
     width: 400px;
     margin: 0;
     display:block;
+    line-height: 15px;
 }
+
+/*
 ul.dropdown li.dropdown-top:hover.dropdown-inside__elem li {
     left: 0;
     height: auto;
@@ -90,60 +95,80 @@ ul.dropdown li.dropdown-top:hover.dropdown-inside__elem li {
     outline: none;
     text-align: justify;
 }
-
+*/
+.dropdown-inside__elem a{
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
 .dropdown-inside__elem:hover {
-    color: #2F5E68;
+    color: #5B9BBE;
     text-decoration: underline;
 }
 
-ul.dropdown li.dropdown-top:hover.dropdown-inside__elem a {
-    color: #DEE6F0;
+/*
+ul.dropdown li.dropdown-top:hover.dropdown-inside__elem  {
+    color: white;
     display: block;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 5px;
+    font-weight: bold;
     text-align: center;
     color: #BCC3DB;
 }
-
+*/
 .header-contacts{
     display: inline-block;
-    margin-left: 50px;
-    width:300px;
-    height: 90px;
+    margin-left: 70px;
     font-size: 16px;
 }
 .header-contacts p{
     margin-left: 30px;
     letter-spacing: 6px;
 }
+
 .header-contacts__link{
-    font-size: 10px;
-    color:#BCC3DB;
+    margin-top: -15px;
 }
+
+/*
 .header-contacts__link__elem{
     display: inline-block;
     font-size: 10px;
-    color:#BCC3DB;
     text-decoration: none;
 }
 .header-contacts__link__elem:hover{
     text-decoration:underline;
-    color: #2F5E68;
+    color: #5B9BBE;
 }
+*/
+.header-contacts__link__vk{
+    margin-left: 10px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../img/header-contacts__link__vk.png) no-repeat;
+}    
+.header-contacts__link__fb{
+    margin-left: 70px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../img/header-contacts__link__fb.png) no-repeat;  
+}   
+.header-contacts__link__ins{
+    margin-left: 10px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../img/header-contacts__link__ins.png) no-repeat;     
+}   
 
-.button-better{
-    margin-top: 50px;
-    padding: 0;
-    height: 37px;
-    width: 47px;
-    background: url(../img/button-better.png) no-repeat;
-}
 .button-nav{
     display: block;
     margin-top: 250px;
     height: 37px;
-    width: 1350px;
+    width: 1355px;
 }
 .button-nav__button-left{
     display: inline-block;
@@ -154,10 +179,14 @@ ul.dropdown li.dropdown-top:hover.dropdown-inside__elem a {
 }
 .button-nav__button-right{
     display: inline-block;
-    margin-left: 1300px;
+    margin-left: 1305px;
     padding: 0;
     height: 37px;
     width: 23px;
     background: url(../img/button-right.png) no-repeat;
 }
-    
+footer{
+    width: 1355px;
+    text-align:  center;
+    margin-top: 290px;
+}
