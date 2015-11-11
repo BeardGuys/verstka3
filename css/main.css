@@ -76,13 +76,12 @@ header {
 } 
 .dropdown {
     font-size: 25px;
-    margin-top: 0; 
     position: relative;
     display: inline-block; 
     width: 690px; 
     height: 90px; 
     margin-left: 15px; 
-    letter-spacing: 0px;
+    letter-spacing: 0;
     margin-top: 50px;
 } 
 .dropdown li {
@@ -168,11 +167,9 @@ ul.dropdown li.dropdown-top:hover.dropdown-inside__elem  {
     top:10px; 
     left:1000px;
     display: inline-block;
-    position: ;
     margin-left: 70px;
     margin-top: 25px;
     font-size: 16px;
-    float: ;
 }
 .header-contacts p{
     margin-left: 30px;
@@ -180,7 +177,7 @@ ul.dropdown li.dropdown-top:hover.dropdown-inside__elem  {
 }
 
 .header-contacts__link{
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 /*
@@ -316,8 +313,6 @@ p {
     margin-top: 0;
     height: 37px;
     width: 1355px;
-    margin-top:0;
-
 }
 
 .button-nav{
@@ -357,7 +352,7 @@ p {
 }
 .index__button-nav__button-left{
 
-    margin-left: 0px;
+    margin-left: 0;
     padding: 0;
     height: 37px;
     width: 23px;
@@ -365,7 +360,7 @@ p {
     display: inline-block;
 }
 .index__button-nav__button-right{
-    margin-left: 0px;
+    margin-left: 0;
     padding: 0;
     height: 37px;
     width: 23px;
