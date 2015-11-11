@@ -404,7 +404,7 @@ p {
     vertical-align: top;
     height:450px;
     width: 700px;
-    background: url(../img/book__graph.png) no-repeat;;
+    background: url(../img/book__graph.png) no-repeat;
 }
 .book__reserve{
     position: relative;
@@ -435,6 +435,22 @@ p {
     margin-top: 30px;
 }
 
+.contacts__map{
+    background: url(../img/contacts__map.png) no-repeat;
+}
+.contacts__text{
+    font-size: 14px;
+    padding: 20px 10px;
+    height: 410px;
+}
+.contacts__text h4{
+    margin: 5px;
+    padding: 0;
+}
+.contacts__text p{
+    margin: 0;
+    padding: 0;
+}
 /*#login-fiel{
     height: 33px;
     width: 200px;
