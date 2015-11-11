@@ -4,7 +4,7 @@ html, body {
     padding: 0;
     height: 700px;
     width: 1355px;
-    font-family: Impact;
+    font-family: "Lucida Grande";
     font-weight: bold;
     color: #DADFE1;
 }
@@ -70,15 +70,15 @@ header {
     color:#5B9BBE;
 } 
 .dropdown {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0; 
     position: relative;
     display: inline-block; 
-    width: 700px; 
+    width: 690px; 
     height: 90px; 
-    margin-left: 45px; 
+    margin-left: 15px; 
     letter-spacing: 0px;
-    margin-top: 45px;
+    margin-top: 50px;
 } 
 .dropdown li {
     list-style: none; 
@@ -112,7 +112,7 @@ ul.dropdown-inside {
 
 ul.dropdown li.dropdown-top:hover .dropdown-inside {
     left: 0;
-    height: 0px;
+    height: 20px;
     width: 400px;
     margin: 0;
     display:block;
@@ -134,9 +134,13 @@ ul.dropdown li.dropdown-top:hover.dropdown-inside__elem li {
 }
 */
 .dropdown-inside__elem a{
+    line-height:20px;
     font-size: 10px;
     letter-spacing: 4px;
     font-weight: lighter;
+}
+ul.dropdown li.dropdown-top:hover.dropdown-inside__elem li {
+
 }
 .dropdown-inside__elem:hover {
     color: #5B9BBE;
@@ -218,12 +222,12 @@ ul.dropdown li.dropdown-top:hover.dropdown-inside__elem  {
 .header-contacts__link__ins:hover{
     background: url(../img/header-contacts__link__ins:hover.png) no-repeat;
 }
-
+/*
 .button-nav{
     display: block;
     margin-top: 250px;
     height: 37px;
-    width: 1355px;
+    width: 0px;
 }
 .button-nav__button-left{
     display: inline-block;
@@ -240,7 +244,7 @@ ul.dropdown li.dropdown-top:hover.dropdown-inside__elem  {
     width: 23px;
     background: url(../img/button-right.png) no-repeat;
 }
-
+*/
 
 footer{
     width: 1355px;
@@ -249,6 +253,7 @@ footer{
 }
 
 .sidebar{
+    font-size:14px;
     position: fixed;
     top: 0;
     left: 0;
@@ -275,6 +280,7 @@ h4 {
     text-align:  center;
 }
 p {
+    font-family: "Lucida Grande";
     padding: 0 10px;
     margin: 0;
 }
@@ -288,7 +294,7 @@ p {
 .sidebar__key-close{
     margin-left: 0;
     padding: 0;
-    margin-top: 75px;
+    margin-top: 50px;
     width: 40px;
     height: 35px;
     font-size: 30px;
@@ -307,7 +313,6 @@ p {
 
 }
 
-#2E4354
 .button-nav{
     display: block;
     margin-top: 250px;
@@ -338,26 +343,28 @@ p {
 }
 
 .index__button-nav{
-    display: block;
+    display: inline-block;
     margin-top: 300px;
     height: 37px;
     width: 1355px;
 }
 .index__button-nav__button-left{
-    display: inline-block;
+
     margin-left: 0px;
     padding: 0;
     height: 37px;
     width: 23px;
     background: url(../img/button-left.png) no-repeat;
+    display: inline-block;
 }
 .index__button-nav__button-right{
-    display: inline-block;
-    margin-left: 1305px;
+    margin-left: 0px;
     padding: 0;
     height: 37px;
     width: 23px;
     background: url(../img/button-right.png) no-repeat;
+    display: inline-block;
+    float: right;
 }
 .index__button-nav__button-left:hover{
     background-color: #1C66A7; 
