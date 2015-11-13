@@ -17,9 +17,9 @@
         		<a href="#" class="dropdown-top">СТУДИИ</a>
 
             	<ul class="dropdown-inside">
- 					<li class="dropdown-inside__elem"><a href="studio1.html" class="dropdown-inside__elem" href="#">СТУДИЯ 1</a></li>
- 					<li class="dropdown-inside__elem"><a href="../html/studio2.html" class="dropdown-inside__elem" href="#">СТУДИЯ 2</a></li>
- 					<li class="dropdown-inside__elem"><a href="../html/studio3.html" class="dropdown-inside__elem" href="#">СТУДИЯ 3</a></li>
+ 					<li class="dropdown-inside__elem"><a href="studio1.html" class="dropdown-inside__elem" >СТУДИЯ 1</a></li>
+ 					<li class="dropdown-inside__elem"><a href="../html/studio2.html" class="dropdown-inside__elem" >СТУДИЯ 2</a></li>
+ 					<li class="dropdown-inside__elem"><a href="../html/studio3.html" class="dropdown-inside__elem" >СТУДИЯ 3</a></li>
  				</ul>
         	</li>
 
@@ -51,11 +51,16 @@
 		<div class="book__graph"></div>
 		<div class="book__reserve">
  			<form action="/echo" method="post">
-			<label for="login-fiel"></label><br> 
-			<input type="text" class="book__reserve__field" id="login-field" value="Имя"/><br>
-			<label for="login-fiel"></label><br>
-			<input type="text"  class="book__reserve__field"id="login-fiel" value="Телефон"/><br>
-			<input class="key book__key-reserv" type="submit" id="submit-fiel" value="Забронировать"><br>				
+				<label for="book__reserve__field__name"></label><br> 
+					<input type="text" class="book__reserve__field"  id="book__reserve__field__name" value="Имя"/><br>
+				
+				<label for="book__reserve__field__tel"></label><br>
+					<input type="text"  class="book__reserve__field" id="book__reserve__field__tel" value="Телефон"/><br>
+				
+				<label for="book__reserve__field__book"></label >
+					<input class="key book__key-reserv" type="submit" id="book__reserve__field__book" value="Забронировать"/><br>
+				
+			</form>				
 		</div>
 		
 	</div>
@@ -63,7 +68,7 @@
 </div>
 
 		<footer>
-    		Copyright &copy 2015 SpaceStudio. All rights reserved
+    		Copyright &amp; 2015 SpaceStudio. All rights reserved
 		</footer>
 
 
